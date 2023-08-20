@@ -18,14 +18,6 @@ Login email="admin1@example.com"
 Login password="123456"
 ```
 
-## Usage
-
-Clone the repo
-
-```bash
-git clone https://github.com/upendradhamala/School-Management-System.git
-```
-
 ### Getting Started
 
 Go to the root folder and install the backend dependencies by using the command-

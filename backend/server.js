@@ -34,9 +34,11 @@ app.use('/api/staffs', staffRoutes)
 app.get('/api/config/cloudinary', (req, res) => {
   res.send(process.env.CLOUDINARY_URL)
 })
+
 app.get('/api/config/cloudinarypreset', (req, res) => {
   res.send(process.env.CLOUDINARY_UPLOAD_PRESET)
 })
+
 const __dirname = path.resolve()
 if (process.env.NODE_ENV === 'production') {
   app.use(express.static(path.join(__dirname, '/frontend/build')))
